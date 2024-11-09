@@ -1,5 +1,5 @@
 S - Single Responsibility Principle (A class should have only 1 reason to change)
-O - Open/Closed Principle
+O - Open/Closed Principle (Open for Extension but Closed for Modification)
 L - Liskov Substitution Principle
 I - Interface Segmented Principle
 D - Dependency Inversion Principle

@@ -1,4 +1,6 @@
-package org.learning.Single_Responsibility_Principle;
+package org.learning.Single_Responsibility_Principle.correct;
+
+import org.learning.Single_Responsibility_Principle.Marker;
 
 public class Invoice {
 
@@ -13,12 +15,5 @@ public class Invoice {
     public int calculateTotal() {
         int price = ((marker.price) * this.quantity);
         return price;
-    }
-
-    public void printInvoice() {
-        //print the invoice
-    }
-    public void saveToDB() {
-        //Save the data into DB
     }
 }
